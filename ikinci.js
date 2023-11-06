@@ -1,5 +1,5 @@
 function add() {
-let a =document.getElementById('inputvalue2').value
+let a =Number(document.getElementById('inputvalue2').value)
 let button = document.getElementById('btn')
 let paragraph = document.getElementById('div')
 if(isNaN(a) || a < 0){

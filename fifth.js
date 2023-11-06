@@ -1,7 +1,7 @@
 function temperature() {
-    let az = document.getElementById('first').value
-    let ru = document.getElementById('second').value
-    let america = document.getElementById('third').value
+    let az =Number(document.getElementById('first').value)
+    let ru =Number(document.getElementById('second').value)
+    let america = Number(document.getElementById('third').value)
     let paragraph = document.getElementById('div')
     let temps = [az,ru,america];
     for(let i = 0; i < temps.length; i++) {

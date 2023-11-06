@@ -1,9 +1,9 @@
 function add(){
-    let length = document.getElementById('length').value
-    let height = document.getElementById('height').value
-    let width = document.getElementById('width').value
-    let weight= document.getElementById('weight').value
-    let distance= document.getElementById('distance').value
+    let length = Number(document.getElementById('length').value)
+    let height =Number( document.getElementById('height').value)
+    let width = Number(document.getElementById('width').value)
+    let weight= Number(document.getElementById('weight').value)
+    let distance=  Number(document.getElementById('distance').value)
     let button = document.getElementById('btn')
     let paragraph = document.getElementById('div')
 
