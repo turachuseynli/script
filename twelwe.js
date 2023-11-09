@@ -1,6 +1,5 @@
 function add() {
     let number = Number(document.getElementById('number').value)
-    let result = 0;
     let button = document.getElementById('btn')
     let paragraph = document.getElementById('div')
     let a = Math.floor(number/100) ;
